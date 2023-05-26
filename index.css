@@ -1,0 +1,91 @@
+body {
+    margin: 0;
+    background-color: #1C1C1C;
+    color: white;
+    font-family: 'Karla', sans-serif;
+}
+
+.main {
+    background-color: #273549;
+    height: 550px;
+    width: 550px;
+    margin: auto;
+    padding-top: 20px;
+    /* padding-left: 20px */
+
+}
+
+h1 {
+    font-family: Karla;
+    font-size: 40px;
+    font-weight: 800;
+    line-height: 40px;
+    letter-spacing: -0.025em;
+    text-align: left;
+}
+
+p {
+    padding-left: 25px;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    background-color: #273549;
+}
+
+.button-primary {
+    height: 40px;
+    width: 150px;
+    background-color: #10B981;
+    color: white;
+    border-radius: 5px;
+}
+
+#controls {
+    display: block;
+    width: 1005;
+    margin: 20px;
+    padding-left: 10px;
+}
+
+#controls .button-primary {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.text-field {
+    border: 1px solid black;
+    height: 40px;
+    width: 211px;
+    background-color: #2F3E53;
+    text-align: center;
+    line-height: 40px;
+    vertical-align: middle;
+}
+
+.seperator {
+    width: 460px;
+    border: 1px solid #2F3E53;
+}
+
+.inline-button {
+    height: 1rem;
+    font-size: smaller;
+}
+
+.password-container {
+    display: flex;
+    color: #10B981
+}
+
+.text-green {
+    color: #10B981;
+}
+
+.hero{
+    padding-left: 20px;
+}
+.hero >p {
+    font-size: large;
+}
